@@ -1,5 +1,7 @@
 FROM debian:buster
 
+ARG PI_RELEASE=master
+
 RUN apt-get update; apt -y install \
 	build-essential \
 	git \
